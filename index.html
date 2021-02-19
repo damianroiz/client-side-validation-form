@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Cient Side Validation Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+
+<form>
+  <p>
+    <label for="mail">
+        <span>Please enter your email address:</span>
+        <input type="text" id="mail" name="mail">
+        <span class="error" aria-live="polite"></span>
+    </label>
+  </p>
+  
+  <!-- Some legacy browsers need to have the `type` attribute
+       explicitly set to `submit` on the `button`element -->
+  
+  <button type="submit">Send</button>
+</form>
+
+</body>
+
+</html>
